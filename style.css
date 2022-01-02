@@ -9,8 +9,15 @@
   -webkit-tap-highlight-color: transparent;
   overflow-x: hidden;
 }
-.container {
+.container.parts {
   overflow: hidden;
+  border: 6px green solid;
+  max-width: 1170px !important;
+}
+@media screen and (min-width: 767px) and (max-width: 1024px) {
+  .container.parts {
+    max-width: 86% !important;
+  }
 }
 .navBar {
   width: 100%;
@@ -657,6 +664,12 @@
   /* margin-bottom: -13rem; */
   margin-top: 1rem;
 }
+@media screen and (min-width: 767px) and (max-width: 1024px) {
+  .width_slide {
+    margin-left: 13rem;
+    width: 73.4% !important;
+  }
+}
 .Hero__para {
   font-size: 3.3rem;
   color: #00ffea;
@@ -689,6 +702,12 @@
   margin-bottom: 5rem;
   font-weight: 700 !important;
   background-color: #00ffea !important;
+}
+@media screen and (min-width: 767px) and (max-width: 1024px) {
+  .carousel-indicators {
+    margin-left: 7rem !important;
+    margin-bottom: 7rem !important;
+  }
 }
 @media screen and (min-width: 1441px) and (max-width: 2560px) {
   .width_slide {
@@ -878,14 +897,14 @@
 
 @media screen and (min-width: 769px) and (max-width: 1029px) {
   .home-section1 div h1 {
-    margin-left: 1rem !important;
+    margin-left: 0rem !important;
   }
   .p-my {
     margin-left: 3rem;
   }
   .home-section1 div p {
     font-size: 1.1rem;
-    margin-left: 1rem;
+    margin-left: 0rem;
   }
 }
 @media screen and (min-width: 431px) and (max-width: 768px) {
@@ -953,7 +972,7 @@
 .card {
   border: 1px solid #00ffea !important;
   width: 43rem !important;
-  margin-left: 11rem;
+  margin-left: 9.6rem;
   background-color: #161413 !important;
 }
 .card-title {
@@ -966,10 +985,10 @@
 .card-text {
   margin-left: 1rem !important;
 }
-@media screen and (min-width: 2000px) and (max-width: 2560px) {
+@media screen and (min-width: 1441px) and (max-width: 2560px) {
   .card {
     width: 45rem !important;
-    margin-left: 14rem !important;
+    margin-left: 12.5rem !important;
   }
   .img-fluid {
     margin-top: 0rem;
@@ -1003,7 +1022,7 @@
   }
   .card {
     width: 44rem !important;
-    margin-left: 5rem;
+    margin-left: 4.2rem;
   }
   .card-title {
     margin-left: 0rem;
@@ -1254,7 +1273,6 @@
   .btn_news {
     font-size: 1.5rem;
     width: 21rem;
-    margin-left: -14rem;
   }
 }
 @media screen and (min-width: 767px) and (max-width: 1024px) {
@@ -1287,9 +1305,14 @@
   }
 }
 .display-3 {
-  margin-left: 0rem;
+  margin-left: -5rem;
   line-height: 3.2 !important;
   color: #00ffea;
+}
+@media screen and (min-width: 1441px) and (max-width: 2560px) {
+  .display-3 {
+    margin-left: 0rem;
+  }
 }
 @media screen and (min-width: 769px) and (max-width: 1199px) {
   .display-3 {
@@ -1384,10 +1407,13 @@
 }
 @media screen and (min-width: 992px) and (max-width: 1024px) {
   .display-3 {
-    margin-left: 1rem;
+    margin-left: 0rem;
   }
   .card-Active {
-    margin-left: 2rem;
+    margin-left: -0.6rem;
+  }
+  .row.row-cols-md-3 {
+    width: 87%;
   }
 }
 @media screen and (min-width: 769px) and (max-width: 991px) {
@@ -1467,7 +1493,7 @@
 
 @media screen and (min-width: 1199px) and (max-width: 1440px) {
   .winners .display-2 {
-    margin-left: -3rem;
+    margin-left: -5rem;
   }
 }
 @media screen and (min-width: 1025px) and (max-width: 1198px) {
@@ -1477,10 +1503,10 @@
 }
 @media screen and (min-width: 992px) and (max-width: 1024px) {
   .winners .display-2 {
-    margin-left: 1rem;
+    margin-left: 0rem;
   }
   .loveit {
-    margin-left: 17rem;
+    margin-left: 13rem;
   }
 }
 @media screen and (min-width: 769px) and (max-width: 991px) {
@@ -1527,7 +1553,7 @@
   font-size: 3.4rem !important;
   margin-top: 7rem;
   color: #00ffea;
-  margin-left: -3rem;
+  margin-left: -5rem;
 }
 @media screen and (min-width: 1441px) and (max-width: 2560px) {
   .Display_cust {
@@ -1536,7 +1562,7 @@
 }
 @media screen and (min-width: 992px) and (max-width: 1024px) {
   .Display_cust {
-    margin-left: 2rem;
+    margin-left: 0rem;
   }
 }
 @media screen and (min-width: 1025px) and (max-width: 1198px) {
@@ -1575,7 +1601,8 @@
   min-height: 40vh;
   border: 1px solid #d2d2d2;
   margin: 50px auto 0;
-  margin-left: -3rem;
+  margin-left: -4.7rem;
+  justify-content: space-evenly;
 }
 .excellent {
   margin-left: 2rem;
@@ -1619,7 +1646,7 @@
 
 @media screen and (min-width: 1441px) and (max-width: 2560px) {
   .section5 > div.row {
-    margin-left: 0rem;
+    margin-left: 0.4rem;
     width: 70rem;
     min-height: 36vh;
   }
@@ -1666,8 +1693,8 @@
 }
 @media screen and (min-width: 992px) and (max-width: 1024px) {
   .section5 .row {
-    width: 54rem !important;
-    margin-left: 3rem !important;
+    width: 52.8rem !important;
+    margin-left: 0rem !important;
   }
   .section5 .stars i {
     font-size: 1rem !important;
@@ -1747,10 +1774,10 @@
   }
 }
 .section5 .row {
-  width: 68rem;
+  width: 71rem;
 }
 .section6 .display-2 {
-  margin-left: 7rem;
+  margin-left: 0rem;
   margin-top: 3rem;
   margin-bottom: 3rem;
   font-size: 4rem;
@@ -1769,7 +1796,7 @@
 }
 @media screen and (min-width: 992px) and (max-width: 1024px) {
   .section6 .display-2 {
-    margin-left: 3rem;
+    margin-left: 0rem;
   }
 }
 @media screen and (min-width: 769px) and (max-width: 991px) {
@@ -1805,20 +1832,21 @@
   margin-top: calc(var(--bs-gutter-y) * -1);
   margin-right: calc(var(--bs-gutter-x) * -0.5);
   /* margin-left: calc(var(--bs-gutter-x) * -.5); */
-  margin-left: -9rem !important;
+  margin-left: -8.6rem !important;
 }
 .section6 .col-md-8 {
   display: flex;
   flex-wrap: wrap;
   flex: 0 0 auto;
-  margin-left: 16rem;
+  margin-left: 8.5rem;
   flex: 0 0 auto;
-  width: 74.666667%;
+  width: 88.666667%;
   padding-top: 2rem;
   border: 1px solid lightgray;
+  justify-content: space-evenly;
 }
 .video_gift {
-  width: 18rem !important;
+  width: 84% !important;
   height: 10rem !important;
 }
 
@@ -1867,7 +1895,8 @@
 }
 @media screen and (min-width: 992px) and (max-width: 1024px) {
   .section6 .row {
-    margin-left: -13rem !important;
+    margin-left: -8.6rem !important;
+    width: 59.7rem;
   }
 
   .video_gift {
@@ -1981,23 +2010,25 @@
 }
 
 .icon {
-  text-align: center;
+  display: flex;
+  justify-content: center;
   margin-top: 1rem;
 }
+
 .fb {
-  border-radius: 69px;
-  border: 8px solid transparent;
+  border-radius: 50%;
+  border: 7px solid transparent;
   padding: 1rem;
   background-color: lightgray;
   color: black;
 }
 .fb:hover {
-  background-color: darkblue;
+  background-color: rgb(82, 78, 183);
 }
 .insta {
-  margin-left: 1rem;
-  border-radius: 69px;
-  border: 8px solid transparent;
+  margin-left: 1rem !important;
+  border-radius: 50%;
+  border: 7px solid transparent;
   padding: 1rem;
   background-color: lightgray;
   color: black;
@@ -2006,9 +2037,9 @@
   background-color: rgb(116, 87, 210);
 }
 .whats {
-  margin-left: 1rem;
-  border-radius: 69px;
-  border: 8px solid transparent;
+  margin-left: 1rem !important;
+  border-radius: 50%;
+  border: 7px solid transparent;
   padding: 1rem;
   background-color: lightgray;
   color: black;
@@ -2017,15 +2048,17 @@
   background-color: #00b67a;
 }
 .you {
-  margin-left: 1rem;
-  border-radius: 69px;
-  border: 8px solid transparent;
+  margin-left: 1rem !important;
+  border-radius: 50%;
+  border: 7px solid transparent;
   padding: 1rem;
   background-color: lightgray;
   color: black;
 }
 .you:hover {
   background-color: red;
+}
+@media screen and (min-width: 1441px) and (max-width: 2560px) {
 }
 .imglogoo {
   text-align: center;
