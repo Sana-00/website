@@ -1245,6 +1245,7 @@
     font-size: 1rem;
   }
 }
+
 .btn_news {
   display: inline-block;
   font-weight: bold;
@@ -1279,6 +1280,9 @@
   .btn_news {
     border-radius: 2rem;
     font-size: 1.5rem;
+  }
+  .news {
+    width: 46rem;
   }
 }
 @media screen and (min-width: 431px) and (max-width: 768px) {
@@ -1895,15 +1899,12 @@
 }
 @media screen and (min-width: 992px) and (max-width: 1024px) {
   .section6 .row {
-    margin-left: -8.6rem !important;
     width: 59.7rem;
   }
 
-  .video_gift {
-    margin-left: -5rem !important;
-  }
-  .img-gift1 {
-    margin-left: 2rem;
+  .img-gift {
+    max-width: 100% !important;
+    margin-left: 0.6rem;
   }
 }
 @media screen and (min-width: 769px) and (max-width: 991px) {
