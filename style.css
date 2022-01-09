@@ -2886,3 +2886,207 @@
     font-size: 1rem;
   }
 }
+/* login*/
+.login-form{
+  border: 1px solid white;
+  width: 30rem;
+  border-radius: 2rem;
+  background-color: white;
+  margin-left: 24rem;
+  padding-bottom: 2rem;
+  margin-top: -3rem;
+  box-shadow: 0 3px 20px 0 rgba(60,237,183,.2);
+}
+.login-toggler{
+  font-size: 2.7rem;
+  text-align: center;
+  background-color: aqua;
+  color: #000;
+  border: 0;
+}
+.login-model{
+  text-align: center;
+  background: aqua;
+  width: 30rem;
+  padding: 2rem;
+  border-top-left-radius: 2rem;
+  border-top-right-radius: 2rem;
+  text-align: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.btn-group{
+  position: relative;
+  display: inline-flex;
+  vertical-align: middle;
+  background-color: white !important;
+  margin-top: 2rem;
+  margin-left: 1rem;
+  height: 3.2rem;
+}
+.form button{
+  background-color: white !important;
+  border: 2px solid lightgray;
+  font-size: 1.3rem;
+  font-weight: 200 !important;
+  outline: black;
+  text-align: center;
+  width: 13.2rem;
+  font-family: Poppins;
+  color: black;
+  height: 3rem;
+}
+.form img{
+  width: 2.8rem;
+  /* background-color: white !important; */
+  margin-left: -4rem;
+  border-radius: 24%;
+  height: -1rem;
+  height: 2.9rem;
+  object-fit: cover;
+  margin-top: -0.4rem;
+}
+.form button:nth-child(2){
+  margin-left: 1.7rem !important;
+}
+.form input{
+  position: relative;
+  width: 94%;
+  margin-top: .6em;
+  margin-bottom: .6em;
+  border-radius: 20px;
+  border: none;
+  background: #ebebeb;
+  outline: none;
+  transition: .4s;
+  padding-left: 36px;
+  font-size: 1.5rem;
+  margin-left: 1rem;
+}
+.form-floating>label {
+  font-size: 1.2rem;
+  padding: 1rem 2.75rem !important;
+}
+.form .login-btn{
+  background-color: aqua !important;
+  outline: 0;
+  border: none;
+  width: 27rem;
+  margin-left: -9rem !important;
+  color: black !important;
+  font-weight: 600 !important;
+}
+.reset p{
+  margin-top: -4rem;
+  margin-left: 4rem;
+  font-size: 1.3rem;
+  /* color: darkgray; */
+  color: black;
+}
+.reset a{
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+}
+.sign p{
+  margin-top: -0.8rem;
+  margin-left: 4rem;
+  font-size: 1.3rem;
+  /* color: darkgray; */
+  color: black;
+}
+.sign a{
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+}
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .login-form{
+    margin-left: 13rem;
+    margin-top: -1rem;
+  }
+}
+@media screen and (min-width: 431px) and (max-width: 768px) {
+.login-form{
+  margin-left: 4rem;
+  margin-top: -1rem;
+}
+.btn-group{
+  margin-left: 0rem;
+}
+.form button{
+  margin-left: 1rem;
+}
+.reset p{
+  margin-top: 2rem;
+}
+}
+@media screen and (min-width: 391px) and (max-width: 430px) {
+.login-form{
+  margin-left: 0.5rem;
+  margin-top: -1rem;
+}
+.form .login-btn{
+  margin-left: 2rem !important;
+}
+}
+@media screen and (min-width: 324px) and (max-width: 390px) {
+.login-form{
+  width: 22rem;
+  margin-left: 0rem;
+  margin-top: -2rem;
+}
+.login-model{
+  width: 22rem;
+}
+.btn-group{
+  margin-left: 1.5rem;
+  margin-top: 2rem;
+}
+.form button{
+  width: 9.2rem;
+}
+.form img{
+  margin-left: -3rem;
+}
+.form .login-btn{
+  width: 21rem;
+  margin-left: -7.4rem !important;
+}
+.reset p{
+  margin-left: 3rem;
+}
+.sign p{
+  margin-left: 3rem;
+}
+}
+@media screen and (min-width: 200px) and (max-width: 374px) {
+  .login-form{
+    width: 22rem;
+    margin-left: 0rem;
+    margin-top: -2rem;
+  }
+  .login-model{
+    width: 22rem;
+  }
+  .btn-group{
+    margin-left: 1.5rem;
+    margin-top: 2rem;
+  }
+  .form button{
+    width: 9.2rem;
+  }
+  .form img{
+    margin-left: -3rem;
+  }
+  .form .login-btn{
+    width: 21rem;
+    margin-left: 0.6rem !important;
+  }
+  .reset p{
+    margin-left: 3rem;
+  }
+  .sign p{
+    margin-left: 3rem;
+  }
+}

@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!--Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap"
+      rel="stylesheet"
+    />
+    <!--Style -->
+    <link rel="stylesheet" href="style.css" />
+    <!--icon-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css"
+    />
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <title>login</title>
+  </head>
+  <body class="body">
+    <div class="container">
+        <div class=" navBar" id="navbarid">
+         <header class="navbar navbar-expand-xl navbar-light" id="top__nav">
+             <a class="navbar-brand" href="#">
+               <img src="images/logo.13b11744.png" alt="" class="img-fluid" id="img-figure"/>
+               <h1 class="Paradise">Paradise Competitions</h1>
+             </a>
+             
+             <button
+               class="navbar-toggler"
+               type="button"
+               data-bs-toggle="collapse"
+               data-bs-target="#navbarSupportedContent">
+               <span class="navbar-toggler-icon bg-light "></span>
+             </button>
+   
+             <nav class="collapse navbar-collapse" id="navbarSupportedContent">
+               <ul class="navbar-nav navbar_nav2 p-0">
+                 <li class="nav-item" id="NavItem">
+                   <a class="nav__menu active" aria-current="page" href="/competition.html"
+                     >Competition</a>
+                 </li>
+                 <li class="nav-item">
+                   <a class="nav__menu active" aria-current="page" href="#"
+                     >How to Play</a>
+                 </li>
+                 <li class="nav-item">
+                   <a class="nav__menu active" aria-current="page" href="#"
+                     >Winners</a>
+                 </li>
+                 <li class="nav-item">
+                   <a class="nav__menu active" aria-current="page" href="#"
+                     >Gift Shop</a>
+                 </li>
+                 <div style="position: relative; color: white;">
+                   <div class="england">
+                     <img class="img-fluid" src="images/england.png" id="flag" alt="">
+                     <select class="select-lang" style="font-weight: 600; font-size: 1rem;">
+                       <option value="en" selected="" style="font-weight: 600; font-size: 1rem;">EN</option>
+                       <option value="bu" style="font-weight: 600; font-size: 1rem;">BU</option>
+                       <option value="de" style="font-weight: 600; font-size: 1rem;">DE</option>
+                       <option value="es" style="font-weight: 600; font-size: 1rem;">ES</option>
+                       <option value="fr" style="font-weight: 600; font-size: 1rem;">FR</option>
+                       <option value="it" style="font-weight: 600; font-size: 1rem;">IT</option>
+                       <option value="mo" style="font-weight: 600; font-size: 1rem;">MO</option>
+                       <option value="nl" style="font-weight: 600; font-size: 1rem;">NL</option>
+                       <option value="pt" style="font-weight: 600; font-size: 1rem;">PT</option>
+                       <option value="ro" style="font-weight: 600; font-size: 1rem;">RO</option>
+                     </select>
+                   </div>
+                   <a class="dustbin" href="#">
+                     <i class="bi bi-cart-check-fill"></i>
+                   </a>
+                    
+                 <div class="d-grid gap-2  justify-content-xl-start btn__navbar">
+                   <button class="  me-md-2 btn__nav" type="button">Client login</button>
+                   <button class="  btnNav " type="button">Register</button>
+                 </div>
+               
+             </div>
+           </nav>
+         </ul>
+       </header>
+       </div>
+     </div>
+     <div class="container login">
+       <div class="login-form">
+         <div class="login-model">
+            <button class="login-toggler"class="" disabled>CLIENT LOGIN</button>
+         </div>
+         <div class="form">
+           <form>
+             <div class="btn-group">
+              <button type="button" class="btn btn-light">
+                <img src="images/11-116295_google-garage-transparent-background-google-logo.png" alt="">
+                GOOGLE
+              </button>
+              
+              <button type="button" class="btn btn-light">
+                <img src="images/124010.png" alt="">
+                FACEBOOK</button>
+             </div>
+             <div class="form-floating mb-3">
+              <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+              <label for="floatingInput">Enter your email*</label>
+            </div>
+            <div class="form-floating">
+              <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+              <label for="floatingPassword">Enter your password*</label>
+            </div>
+            <div class="d-grid gap-2 col-6 mx-auto">
+              <button class="btn btn-primary login-btn" type="button">LoGIN</button>
+            </div>
+            <div class="reset">
+              <p>
+                Forgot Password?
+                <a href="">
+                  Reset Here
+                </a>
+              </p>
+            </div>
+            <div class="sign">
+              <p>
+                Dont have an account?
+                <a href="">
+                  signup
+                </a>
+              </p>
+            </div>
+           </form>
+         </div>
+        </div>
+     </div>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
